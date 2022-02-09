@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+
 from app.models.exceptions_model import InvalidCPF, WrongValueType
 
 def Analize_errors(Vaccine_Cards_Model, data):
